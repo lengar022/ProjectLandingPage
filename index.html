@@ -19,17 +19,17 @@
     <img src="profilePhoto.jpg" alt="Profile Photo">
 
     <h2>CB42</h2>
-    <h3>IoT model of in-car sensor and telemetry system displayed on screen and in the cloud</h3>
+    <h3>IoT model of rally car sensor and telemetry system displayed on screen and in the cloud</h3>
 
     <div class="section">
         <h3>Abstract</h3>
         <p>
-            A telemetry system that collects and displays real-time data from a rally car has been developed. 
+            A telemetry system that collects and displays real-time data from a historic rally car. 
             A Raspberry Pi acts as the central controller, interfacing with several sensors including a GPS module, 
-            a DS18B20 temperature sensor, a fuel level sender measured through an ADS1115 analogue-to-digital converter, 
-            and BLE TPMS sensors. The Raspberry Pi processes the sensor data and publishes it to an MQTT broker. 
-            A webpage built using Svelte subscribes to this data stream. The dashboard presents live sensor readings 
-            alongside the vehicle’s real-time location on a map, allowing users to remotely monitor the car’s status and location.
+            a DS18B20 temperature sensor, a fuel level sender measured through an ADS1115, 
+            and BLE TPMS sensors. Data is processed and published to an MQTT broker locally and remotely. 
+            An in-car display and a Svelte web app visualise live data and vehicle location, enabling the co-driver, 
+            service team and spectators to monitor the car's status and improve safety.
         </p>
     </div>
 
